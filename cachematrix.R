@@ -3,7 +3,7 @@
 ## The 'x' is input as matrix
 ## The "tr" is set as null
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix(),...) {
   tr <- NULL
   set <- function(y){
     x <<- y
